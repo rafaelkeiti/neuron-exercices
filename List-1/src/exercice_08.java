@@ -4,9 +4,9 @@ public class exercice_08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double moneyPerHour = 0;
-        int hoursWork = 0;
-        double totalSalary = 0;
+        double moneyPerHour;
+        int hoursWork;
+        double totalSalary;
 
         System.out.println("Digite o valor que você ganha por hora:");
         moneyPerHour = input.nextDouble();
