@@ -4,18 +4,14 @@ public class exercice_08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double firstProduct;
-        double secondProduct;
-        double thirdProduct;
-
         System.out.println("Digite o valor do primeiro produto:");
-        firstProduct = input.nextDouble();
+        double firstProduct = input.nextDouble();
 
         System.out.println("Digite o valor do segundo produto:");
-        secondProduct = input.nextDouble();
+        double secondProduct = input.nextDouble();
 
         System.out.println("Digite o valor do terceiro produto:");
-        thirdProduct = input.nextDouble();
+        double thirdProduct = input.nextDouble();
 
         if (firstProduct < secondProduct && firstProduct < thirdProduct) {
             System.out.println("O produto 1 é mais barato, valor: R$ " + firstProduct);
