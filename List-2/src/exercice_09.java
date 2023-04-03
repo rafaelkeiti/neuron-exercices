@@ -4,19 +4,14 @@ public class exercice_09 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int firstNumber;
-        int secondNumber;
-        int thirdNumber;
-
-
         System.out.println("Digite um número:");
-        firstNumber = input.nextInt();
+        int firstNumber = input.nextInt();
 
         System.out.println("Digite outro número:");
-        secondNumber = input.nextInt();
+        int secondNumber = input.nextInt();
 
         System.out.println("Digite outro número:");
-        thirdNumber = input.nextInt();
+        int thirdNumber = input.nextInt();
 
         if (firstNumber > secondNumber && firstNumber > thirdNumber) {
             if (secondNumber > thirdNumber) {
