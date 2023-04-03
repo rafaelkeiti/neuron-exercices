@@ -2,22 +2,21 @@ import java.util.Scanner;
 
 public class exercice_19 {
 
-    public static final int MAXIMUM_NUMBER = 1000;
-    public static final int ONE_HUNDRED = 100;
-    public static final int TEN = 10;
-    public static final int ZERO = 0;
-    public static final int ONE = 1;
+    private static final int MAXIMUM_NUMBER = 1000;
+    private static final int ONE_HUNDRED = 100;
+    private static final int TEN = 10;
+    private static final int ZERO = 0;
+    private static final int ONE = 1;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int number;
         int hundreds = 0;
         int dozens = 0;
         int units = 0;
 
         System.out.println("Digite um número menor que 1000:");
-        number = input.nextInt();
+        int number = input.nextInt();
 
         if (number < MAXIMUM_NUMBER) {
             hundreds = number / ONE_HUNDRED;
