@@ -4,18 +4,14 @@ public class exercice_15 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double firstSide;
-        double secondSide;
-        double thirdSide;
-
         System.out.println("Digite o valor do primeiro lado:");
-        firstSide = input.nextDouble();
+        double firstSide = input.nextDouble();
 
         System.out.println("Digite o valor do segundo lado:");
-        secondSide = input.nextDouble();
+        double secondSide = input.nextDouble();
 
         System.out.println("Digite o valor do terceiro lado:");
-        thirdSide = input.nextDouble();
+        double thirdSide = input.nextDouble();
 
         if (firstSide + secondSide > thirdSide && firstSide + thirdSide > secondSide && secondSide + thirdSide > firstSide) {
             if (firstSide == secondSide && secondSide == thirdSide) {
