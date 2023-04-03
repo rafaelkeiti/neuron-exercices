@@ -2,30 +2,27 @@ import java.util.Scanner;
 
 public class exercice_14 {
 
-    public static final int PERFORM_AVERAGE = 2;
-    public static final int ZERO = 0;
-    public static final int FOUR = 4;
-    public static final int SIX = 6;
-    public static final double SEVEN_AND_A_HALF = 7.5;
-    public static final int NINE = 9;
-    public static final int TEN = 10;
+    private static final int PERFORM_AVERAGE = 2;
+    private static final int ZERO = 0;
+    private static final int FOUR = 4;
+    private static final int SIX = 6;
+    private static final double SEVEN_AND_A_HALF = 7.5;
+    private static final int NINE = 9;
+    private static final int TEN = 10;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double firstNote;
-        double secondNote;
-        double average;
         String result = "";
         String concept = "";
 
         System.out.println("Digite a primeira nota:");
-        firstNote = input.nextDouble();
+        double firstNote = input.nextDouble();
 
         System.out.println("Digite a segunda nota:");
-        secondNote = input.nextDouble();
+        double secondNote = input.nextDouble();
 
-        average = (firstNote + secondNote) / PERFORM_AVERAGE;
+        double average = (firstNote + secondNote) / PERFORM_AVERAGE;
 
         if (average >= ZERO && average <= FOUR) {
             concept = "E";
