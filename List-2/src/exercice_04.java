@@ -7,11 +7,10 @@ public class exercice_04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String vowels = "aeiouAEIOU";
-        String letter;
+        String vowels = "AEIOU";
 
         System.out.println("Digite uma letter:");
-        letter = input.nextLine();
+        String letter = input.nextLine().toUpperCase();
 
         if (vowels.contains(String.valueOf(letter.charAt(FIRST_LETTER)))) {
             System.out.println("A letter (" + letter.charAt(FIRST_LETTER) + ") é uma vogal.");
