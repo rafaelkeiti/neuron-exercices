@@ -2,15 +2,13 @@ import java.util.Scanner;
 
 public class exercice_02 {
 
-    public static final int NEUTRAL_NUMBER = 0;
+    private static final int NEUTRAL_NUMBER = 0;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int firstNumber;
-
         System.out.println("Digite um número:");
-        firstNumber = input.nextInt();
+        int firstNumber = input.nextInt();
 
         if (firstNumber > NEUTRAL_NUMBER) {
             System.out.println("O número " + firstNumber + " é positivo.");
