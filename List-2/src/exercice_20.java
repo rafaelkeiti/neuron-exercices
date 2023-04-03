@@ -2,28 +2,23 @@ import java.util.Scanner;
 
 public class exercice_20 {
 
-    public static final int AVERAGE = 7;
-    public static final int FULL_MARK = 10;
-    public static final int GRADE_AVERAGE = 3;
+    private static final int AVERAGE = 7;
+    private static final int FULL_MARK = 10;
+    private static final int GRADE_AVERAGE = 3;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double firstNote;
-        double secondNote;
-        double thirdNote;
-        double average;
-
         System.out.println("Digite a primeira nota:");
-        firstNote = input.nextDouble();
+        double firstNote = input.nextDouble();
 
         System.out.println("Digite a segunda nota:");
-        secondNote = input.nextDouble();
+        double secondNote = input.nextDouble();
 
         System.out.println("Digite a terceira nota:");
-        thirdNote = input.nextDouble();
+        double thirdNote = input.nextDouble();
 
-        average = (firstNote + secondNote + thirdNote) / GRADE_AVERAGE;
+        double average = (firstNote + secondNote + thirdNote) / GRADE_AVERAGE;
 
         if (average >= AVERAGE && average < FULL_MARK) {
             System.out.println("APROVADO");
