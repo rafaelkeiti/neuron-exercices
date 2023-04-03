@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class exercice_13 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int firstNumber;
 
         System.out.println("Digite um número:");
-        firstNumber = input.nextInt();
+        int firstNumber = input.nextInt();
 
         switch (firstNumber) {
             case 1 -> System.out.println("Segunda-Feira");
