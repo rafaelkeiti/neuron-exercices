@@ -1,4 +1,4 @@
-package application;
+package applications;
 
 import static java.lang.Math.sqrt;
 import static utils.VectorUtils.*;
