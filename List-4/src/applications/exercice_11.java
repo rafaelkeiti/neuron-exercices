@@ -1,6 +1,9 @@
+package application;
+
+import static utils.VectorUtils.*;
+
 public class exercice_11 {
 
-    private static final int ZERO_START = 0;
     private static final int TIMES_TEN = 10;
 
     public static void main(String[] args) {
@@ -15,12 +18,7 @@ public class exercice_11 {
             }
         }
 
-        for (int i = ZERO_START; i < array.length; i++) {
-            for (int j = ZERO_START; j < array[i].length; j++) {
-                System.out.print(array[i][j] + " | ");
-            }
-            System.out.println();
-        }
+        printArray(array);
 
         for (int i = ZERO_START; i < array.length; i++) {
             for (int j = ZERO_START; j < array[i].length; j++) {

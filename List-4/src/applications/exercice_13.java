@@ -1,8 +1,11 @@
+package application;
+
 import java.util.Scanner;
+
+import static utils.VectorUtils.*;
 
 public class exercice_13 {
 
-    private static final int ZERO_START = 0;
     private static final int DIVIDING_BY_TWO = 2;
     private static final int ZERO_REST = 0;
 
@@ -24,12 +27,8 @@ public class exercice_13 {
             }
         }
 
-        for (int i = ZERO_START; i < array.length; i++) {
-            for (int j = ZERO_START; j < array[i].length; j++) {
-                System.out.print(array[i][j] + " | ");
-            }
-            System.out.println();
-        }
+        printArray(array);
+
         System.out.println("Pares: " + evenNumber + " | " + "Ímpares: " + oddNumber);
     }
 }

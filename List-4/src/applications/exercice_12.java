@@ -1,6 +1,9 @@
+package application;
+
+import static utils.VectorUtils.*;
+
 public class exercice_12 {
 
-    private static final int ZERO_START = 0;
     private static final int TIMES_TEN = 10;
 
     public static void main(String[] args) {
@@ -12,12 +15,7 @@ public class exercice_12 {
             }
         }
 
-        for (int i = ZERO_START; i < array.length; i++) {
-            for (int j = ZERO_START; j < array[i].length; j++) {
-                System.out.print(array[i][j] + " | ");
-            }
-            System.out.println();
-        }
+        printArray(array);
 
         int highNumberOnTheLine = array[4][0];
         int lowNumberOnTheLine = array[4][0];
