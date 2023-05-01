@@ -6,8 +6,8 @@ public class exercice_02 {
     private static final int DOUBLE_VECTOR_A = 2;
 
     public static void main(String[] args) {
-        int[] vectorA = new int[8];
-        int[] vectorB = new int[8];
+        final int[] vectorA = new int[8];
+        final int[] vectorB = new int[8];
 
         generateValuesVector(vectorA);
 
