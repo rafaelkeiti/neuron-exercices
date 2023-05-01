@@ -6,8 +6,8 @@ import static utils.VectorUtils.*;
 public class exercice_04 {
 
     public static void main(String[] args) {
-        int[] vectorA = new int[15];
-        double[] vectorB = new double[15];
+        final int[] vectorA = new int[15];
+        final double[] vectorB = new double[15];
 
         generateValuesVector(vectorA);
 
