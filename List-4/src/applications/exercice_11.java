@@ -7,7 +7,7 @@ public class exercice_11 {
     private static final int TIMES_TEN = 10;
 
     public static void main(String[] args) {
-        int[][] array = new int[4][4];
+        final int[][] array = new int[4][4];
         int higherNumber = 0;
         int positionLine = 0;
         int positionColumn = 0;
