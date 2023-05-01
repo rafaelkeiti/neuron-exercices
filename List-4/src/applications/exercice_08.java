@@ -5,9 +5,9 @@ import static utils.VectorUtils.*;
 public class exercice_08 {
 
     public static void main(String[] args) {
-        int[] vectorA = new int[10];
-        int[] vectorB = new int[10];
-        int[] vectorC = new int[10];
+        final int[] vectorA = new int[10];
+        final int[] vectorB = new int[10];
+        final int[] vectorC = new int[10];
 
         generateValuesVector(vectorA);
 
