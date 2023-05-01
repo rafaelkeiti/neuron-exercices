@@ -7,7 +7,7 @@ public class exercice_12 {
     private static final int TIMES_TEN = 10;
 
     public static void main(String[] args) {
-        int[][] array = new int[10][10];
+        final int[][] array = new int[10][10];
 
         for (int i = ZERO_START; i < array.length; i++) {
             for (int j = ZERO_START; j < array[i].length; j++) {
