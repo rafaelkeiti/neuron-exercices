@@ -8,8 +8,8 @@ public class exercice_10 {
     private static final int REST_OF_DIVISION = 2;
 
     public static void main(String[] args) {
-        int[] vectorA = new int[10];
-        int[] vectorB = new int[10];
+        final int[] vectorA = new int[10];
+        final int[] vectorB = new int[10];
 
         for (int i = ZERO_START; i < vectorA.length; i++) {
             vectorA[i] = i + ADDING_FIVE_MORE;
