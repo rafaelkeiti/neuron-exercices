@@ -10,8 +10,8 @@ public class exercice_13 {
     private static final int ZERO_REST = 0;
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int[][] array = new int[3][3];
+        final Scanner input = new Scanner(System.in);
+        final int[][] array = new int[3][3];
         int evenNumber = 0;
         int oddNumber = 0;
 
