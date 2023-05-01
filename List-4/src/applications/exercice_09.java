@@ -7,9 +7,9 @@ public class exercice_09 {
     private static final int ADDING_ONE_MORE = 1;
 
     public static void main(String[] args) {
-        int[] vectorA = new int[10];
-        int[] vectorB = new int[10];
-        double[] vectorC = new double[10];
+        final int[] vectorA = new int[10];
+        final int[] vectorB = new int[10];
+        final double[] vectorC = new double[10];
 
         generateValuesVector(vectorA);
 
